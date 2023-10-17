@@ -22,9 +22,9 @@ if [[ ${USER_ID} == "" ]]; then
 	exit 1;
 fi
 
-#Notifiying Commnet
 clear
 
+#Notifiying Commnet
 echo "--CONNECTION INFO--"
 echo "[USER_ID]    : " ${USER_ID}
 echo "[SERVER_IP]  : " ${SERVER_IP}
