@@ -3,7 +3,7 @@ SERVER_IP=0  #Your SERVER IP
 SSH_PORT=22  #Your SSH PORT
 
 #ACCOUND INFO
-USER_ID="student03" #Your ID
+USER_ID=""   #Your ID
 
 #If you use RSA key, set key path here
 RSA_KEY_PATH=""
