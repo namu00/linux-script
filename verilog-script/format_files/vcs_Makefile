@@ -7,4 +7,13 @@ default:
 
 maintainer-copy::
 clean mostlclean distclean maintainer-clean::
-	-rm -rf csrc simv simv.daidir ucli.key verdiLog VerdiLog novas.conf novas.rc novas_dump.log *.fsdb 
+	-rm -rf csrc
+	-rm -rf simv
+	-rm -rf simv.daidir
+	-rm -rf ucli.key
+	-rm -rf verdiLog
+	-rm -rf VerdiLog
+	-rm -rf novas.conf
+	-rm -rf novas.rc
+	-rm -rf novas_dump.log
+	-r, -rf *.fsdb 
